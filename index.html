@@ -1,0 +1,969 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Krite</title>
+    <link rel="stylesheet" href="index.css">
+      <script src="https://kit.fontawesome.com/e4ba9d66bb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="m-4 bg-white rounded-lg">
+        <div class="main flex p-2">
+            <div class="left border w-[25%] rounded-lg">
+                <div class="logo p-2 flex items-center justify-between border rounded">
+                    <div class="flex items-center">
+                        <i class="fa-brands fa-js text-4xl "></i>
+                        <div class="flex flex-col"><p class="text-gray-400 text-xs">INC</p><h2 class="font-bold text-xs">InnovatioHub</h2></div>
+                    </div>
+                    <div class="rounded-full w-[13%] h-[4vh] border overflow-hidden">
+                        <img class="" src="./images/dp.jpeg" alt="img">
+                    </div>
+                </div>
+
+                <div class="features p-1">
+                    <div class="feature flex px-2 py-2 items-center justify-between border">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pen-tool lg:block md:block sm:hidden max-sm:hidden"><path d="m12 19 7-7 3 3-7 7-3-3z"/><path d="m18 13-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"/><path d="m2 2 7.586 7.586"/><circle cx="11" cy="11" r="2"/></svg>
+                            <h3 class="lg:text-sm md:text-sm sm:text-xs max-sm:text-xs font-bold">Design Team</h3>
+                        </div>
+                        <p class="border text-xs py-[2px] px-2 md:relative max-sm:hidden rounded-lg">X+1</p>
+                    </div>                    
+                    <div class="feature flex px-2 py-2 items-center border justify-between">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-podcast lg:block md:block sm:hidden max-sm:hidden"><circle cx="12" cy="11" r="1"/><path d="M11 17a1 1 0 0 1 2 0c0 .5-.34 3-.5 4.5a.5.5 0 0 1-1 0c-.16-1.5-.5-4-.5-4.5Z"/><path d="M8 14a5 5 0 1 1 8 0"/><path d="M17 18.5a9 9 0 1 0-10 0"/></svg>
+                            <h3 class="lg:text-sm md:text-sm sm:text-xs max-sm:text-xs font-bold">Marketing Team</h3>
+                        </div>
+                        <p class="border text-xs py-[2px] px-2 md:relative max-sm:hidden rounded-lg">X+2</p>
+                    </div>                    
+                    <div class="feature flex px-2 py-2 items-center border justify-between">
+                        <div class="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code lg:block md:block sm:hidden max-sm:hidden"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                            <h3 class="lg:text-sm md:text-sm sm:text-xs max-sm:text-xs font-bold">Developement Team</h3>
+                        </div>
+                        <p class="border text-xs py-[2px] px-2 md:relative max-sm:hidden rounded-lg">X+3</p>
+                    </div>
+
+                    <div class="flex py-2 px-2 items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus-circle text-gray-500 text-xs"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/><path d="M12 8v8"/></svg>
+                        <p class="text-sm text-gray-500">Create a foam</p>
+                    </div>
+                </div>
+
+                <div class="subFeatures flex flex-col gap-40">
+                    <div class="upper px-2">
+                        <div class="flex justify-between text-gray-500 text-sm ">
+                            <p>FOLDER</p>
+                            <p class="font-bold text-lg max-sm:hidden">+</p>
+                        </div>
+                        <div class="dropdown flex items-center rounded shadow bg-gray-100 my-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder max-sm:hidden md:block lg:block"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+                            <select name="" id="" class="w-full lg:p-2 md:p-2 sm:p-1 max-sm:p-0 bg-transparent outline-none sm:text-sm lg:text-lg md:text-md max-sm:text-xs sm:text-sm lg:text-lg md:text-md max-sm:text-xs">
+                                <option value="Products">Products</option>
+                                <option value="Roadmap">Roadmap</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Performance">Performance</option>
+                                <option value="Team">Team</option>
+                                <option value="Analytics">Analytics</option>
+                                <option value="Add new sub">Add new sub</option>
+                            </select>
+                        </div>                        
+
+                        <div class="dropdown flex items-center rounded shadow bg-gray-100 my-1 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder max-sm:hidden md:block lg:block"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+                            <select name="" id="" class="w-full lg:p-2 md:p-2 sm:p-1 max-sm:p-0 bg-transparent outline-none sm:text-sm lg:text-lg md:text-md max-sm:text-xs">
+                                <option value="Products">Sales</option>
+                                <option value="Roadmap">Roadmap</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Performance">Performance</option>
+                                <option value="Team">Team</option>
+                                <option value="Analytics">Analytics</option>
+                                <option value="Add new sub">Add new sub</option>
+                            </select>
+                        </div>
+                        <div class="dropdown flex items-center rounded shadow my-1  bg-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder max-sm:hidden md:block lg:block"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+                            <select name="" id="" class="w-full lg:p-2 md:p-2 sm:p-1 max-sm:p-0 bg-transparent outline-none sm:text-sm lg:text-lg md:text-md max-sm:text-xs">
+                                <option value="Products">Design</option>
+                                <option value="Roadmap">Roadmap</option>
+                                <option value="Feedback">Feedback</option>
+                                <option value="Performance">Performance</option>
+                                <option value="Team">Team</option>
+                                <option value="Analytics">Analytics</option>
+                                <option value="Add new sub">Add new sub</option>
+                            </select>
+                        </div>
+                        <div class="dropdown py-2 flex items-center rounded shadow lg:p-2 md:p-2 sm:p-1 max-sm:p-0 bg-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder max-sm:hidden md:block lg:block"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+                            <p class="w-full lg:p-2 md:p-2 sm:p-1 max-sm:p-0 bg-transparent outline-none sm:text-sm lg:text-lg md:text-md max-sm:text-xs sm:text-sm lg:text-lg md:text-md max-sm:text-xs">Office</p>
+                        </div>
+                        <div class="dropdown flex py-2 items-center rounded shadow my-1 lg:p-2 md:p-2 sm:p-1 max-sm:p-0   bg-gray-100">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-folder max-sm:hidden md:block lg:block"><path d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.93 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z"/></svg>
+                            <p class="w-full lg:p-2 md:p-2 sm:p-1 max-sm:p-0 bg-transparent outline-none sm:text-sm lg:text-lg md:text-md max-sm:text-xs sm:text-sm lg:text-lg md:text-md max-sm:text-xs">Legal</p>
+                        </div>
+                    </div>
+
+                    <div class="down px-2 lg:text-lg md:text-md sm:text-sm max-sm:text-sm">
+                        <div class="flex items-center lg:gap-2 md:gap-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user-round-plus lg:block md:block sm:hidden max-sm:hidden"><path d="M2 21a8 8 0 0 1 13.292-6"/><circle cx="10" cy="8" r="5"/><path d="M19 16v6"/><path d="M22 19h-6"/></svg>
+                            <button>Invite teammates</button>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-help max-sm:hidden md:block lg:block sm:hidden"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><line x1="12" x2="12.01" y1="17" y2="17"/></svg>
+                            <button>Help and first steps</button>
+                        </div>
+                        <div class="flex items-center gap-2 bg-gray-300 p-1 rounded">
+                            <button class="lg:block sm:hidden max-sm:hidden">7 days left on trial</button>
+                            <button class="bg-black text-white rounded p-1">Add billing</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="right ml-1 w-[75%] overflow-x-scroll">
+                <div class="nav p-4 flex m-auto w-[100%] border rounded items-center justify-between">
+                    <h1 class="lg:text-xl md:text-lg sm:text-md pl-3 font-bold">Products</h1>
+                    <div class="flex items-center gap-4">
+                        <div class="lg:flex border items-center md:hidden sm:hidden max-sm:hidden cursor-pointer rounded-lg text-sm gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+                            <input type="text" class="outline-none " placeholder="Search for...">
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-messages-square"><path d="M14 9a2 2 0 0 1-2 2H6l-4 4V4c0-1.1.9-2 2-2h8a2 2 0 0 1 2 2v5Z"/><path d="M18 9h2a2 2 0 0 1 2 2v11l-4-4h-6a2 2 0 0 1-2-2v-1"/></svg>
+    
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                    </div>
+                </div>
+
+                <div class="subNav flex justify-between p-4 ">
+                    <div class="flex items-center flex-wrap lg:gap-5 md:gap-4 sm:gap-2 sm:text-sm">
+                        <div class="flex items-center bg-gray-100 rounded shadow-md  lg:gap-2 ">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-biohazard"><circle cx="12" cy="11.9" r="2"/><path d="M6.7 3.4c-.9 2.5 0 5.2 2.2 6.7C6.5 9 3.7 9.6 2 11.6"/><path d="m8.9 10.1 1.4.8"/><path d="M17.3 3.4c.9 2.5 0 5.2-2.2 6.7 2.4-1.2 5.2-.6 6.9 1.5"/><path d="m15.1 10.1-1.4.8"/><path d="M16.7 20.8c-2.6-.4-4.6-2.6-4.7-5.3-.2 2.6-2.1 4.8-4.7 5.2"/><path d="M12 13.9v1.6"/><path d="M13.5 5.4c-1-.2-2-.2-3 0"/><path d="M17 16.4c.7-.7 1.2-1.6 1.5-2.5"/><path d="M5.5 13.9c.3.9.8 1.8 1.5 2.5"/></svg>
+                            <select class="p-2" name="" id="">
+                                <option value="">All brands</option>
+                            </select>
+                        </div>
+    
+                        <select class="flex items-center bg-gray-100 rounded shadow-md p-2 gap-2" name="" id="">
+                            <option value="">Desk</option>
+                        </select>
+    
+                        <select class="flex items-center bg-gray-100 rounded shadow-md p-2 gap-2" name="" id="">
+                            <option value="">Tags</option>
+                        </select>
+    
+                        <div class="flex items-center bg-gray-100 rounded shadow-md p-2 gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-up"><path d="m3 16 4 4 4-4"/><path d="M7 20V4"/><path d="m21 8-4-4-4 4"/><path d="M17 4v16"/></svg>
+                            <button>Sort</button>
+                        </div>
+                        <div class="flex items-center bg-gray-100 rounded shadow-md p-2 gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sliders-horizontal"><line x1="21" x2="14" y1="4" y2="4"/><line x1="10" x2="3" y1="4" y2="4"/><line x1="21" x2="12" y1="12" y2="12"/><line x1="8" x2="3" y1="12" y2="12"/><line x1="21" x2="16" y1="20" y2="20"/><line x1="12" x2="3" y1="20" y2="20"/><line x1="14" x2="14" y1="2" y2="6"/><line x1="8" x2="8" y1="10" y2="14"/><line x1="16" x2="16" y1="18" y2="22"/></svg>
+                            <button>Filter</button>
+                        </div>
+    
+                    </div>
+                    
+                    <div class="lg:flex md:flex items-center gap-3 sm:block">
+                        <div class="flex items-center gap-2 p-1 border shadow-sm rounded">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video lg:w-[24px] md:w-[24px] sm:w-[0px] max-sm:w-[0px]"><path d="m22 8-6 4 6 4V8Z"/><rect width="14" height="12" x="2" y="6" rx="2" ry="2"/></svg>
+                            <button>Meeting</button>
+                        </div>
+                        <div class="flex items-center border rounded p-1 shadow-sm gap-2">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download-cloud lg:w-[24px] md:w-[24px] sm:w-[0px] max-sm:w-[0px]"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M12 12v9"/><path d="m8 17 4 4 4-4"/></svg>
+                            <button>Import/Export</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="table w-full">
+
+
+<div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+    <table class="text-sm text-left rtl:text-right text-gray-500 border">
+        <thead class="text-xs text-gray-700 uppercase bg-gray-50  ">
+            <tr class="">
+                <th scope="col" class="p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-all-search" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                    </div>
+                </th>
+                <th scope="col" class="w-[20%]">
+                    Brand
+                </th>
+                <th scope="col" class="">
+                    Description
+                </th>
+                <th scope="col" class="">
+                    Members
+                </th>
+                <th scope="col" class="">
+                    Categories
+                </th>
+                <th scope="col" class="">
+                    Tags
+                </th>
+                <th scope="col" class="">
+                    Next Meeting
+                </th>
+                <th scope="col" class="">
+                    +
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-white border-b hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-1" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/wix.png" class="w-[10%]" alt="">
+                        <p>Wix</p>
+                    </div>
+                </th>
+                <td class="border">
+                    Develop a personalized FITB
+                </td>
+                <td class="border">
+                    Laptop
+                </td>
+                <td class=" text-purple-600 border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">Automation</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">#DigitalTransformation</span>
+                </td>
+                <td class=" text-green-700">
+                    <span class="border border-green-700 shadow-inner p-1 rounded text-xs text-sm">in 30 minutes</span>
+                </td>
+                <td class="border">
+                    
+                </td>
+
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-2" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/social.png" class="w-[10%]" alt="">
+                        <p>Shopify</p>
+                    </div>
+                </th>
+                <td class="border">
+                    Introduce a cloud-based p...
+                </td>
+                <td class="border">
+                    Laptop PC
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">E-commerce</span>
+                        <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">B2B</span>
+                    </div>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">#OnlineShopping</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">Tomorrow</span>
+                </td>
+                <td class="border">
+                    
+                </td>
+                
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/mailchimp.png" class="w-[10%]" alt="">
+                        <p>Mailchimp</p>
+                    </div>
+                </th>
+                <td class="border">
+                    Develop in a mobile app aim...
+                </td>
+                <td class="border">
+                    Accessories
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">SMS</span>
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Mobile</span>
+                    </div>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#Techinuation</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Tomorrow</span>
+                </td>
+                <td class="border">
+                    0.2 lb.
+                </td>
+
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/paypal.png" class="w-[10%]" alt="">
+                        <p>Paypal</p>
+                    </div>
+                </th>
+                <td class="border">
+                    This program could include..
+                </td>
+                <td class="border">
+                    Watches
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Marketplace</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#DaySaleOnline</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">in 6 hours</span>
+                </td>
+                <td class="border">
+                    
+                </td>
+
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/disney.png" class="w-[10%]" alt="">
+                        <p>Disney</p>
+                    </div>
+                </th>
+                <td class="border">
+                    Introduce a B2B solution f...
+                </td>
+                <td class="border">
+                    PC
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">B2B</span>
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">SAAS</span>
+                    </div>                   
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#BusinessPartnership</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">No contact</span>
+                </td>
+                <td class="border">
+
+                </td>
+
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/intercom.png" class="w-[10%]" alt="">
+                        <p>Intercom</p>
+                    </div>
+                </th>
+                <td class="border">
+                    Implement an AI-driven Co...
+                </td>
+                <td class="border">
+                    Accessories
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                       <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Technology</span>
+                       <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">SAAS</span>
+                   </div>
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#SmartFinance</span>
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#SaasFi..</span>
+                    </div>
+                    
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">in 1 hour</span>
+                </td>
+                <td class="border">
+                    
+                </td>
+                
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/google.png" class="w-[10%]" alt="">
+                        <p>Google</p>
+                    </div>
+                </th>
+                <td class="border">
+                    Offer a comprehensive cy..
+                </td>
+                <td class="border">
+                    Tablet
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">#Finance</span>
+                        <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">#Automation</span>
+                    </div>
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">#SmartFinance</span>
+                        <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">#Works..</span>
+                    </div>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">in 30 minutes</span>
+                </td>
+                <td class="border">
+                    
+                </td>
+                
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/evernote.png" class="w-[10%]" alt="">
+                        <p>Evernote</p>
+                    </div>
+                </th>
+                <td class="border">
+                    This could include smart li...
+                </td>
+                <td class="border">
+                    Accessories
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">Transportation</span>
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#LogisticTech</span>
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#LTK</span>
+                    </div>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Next month</span>
+                </td>
+                <td class="border">
+
+                </td>
+
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/microsoft.png" class="w-[10%]" alt="">
+                        <p>Microsoft</p>
+                    </div>
+                </th>
+                <td class="border">
+                    Launch in an advisory service..
+                </td>
+                <td class="border">
+                    Laptop
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Publishing</span>
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">B2C</span>
+                    </div>
+                </td>
+                <td class="border">
+                    <div class="flex items-center">
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#B2CMarketing</span>
+                        <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#RatalIt.</span>
+                    </div>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner p-1 text-xs rounded">No contact</span>
+                </td>
+                <td class="border">
+
+                </td>
+
+            </tr>
+            <tr class="bg-white border-b   hover:bg-gray-50 ">
+                <td class="w-4 p-4">
+                    <div class="flex items-center">
+                        <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                        <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                    </div>
+                </td>
+                <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                    <div class="flex items-center">
+                        <img src="./images/invision.png" class="w-[10%]" alt="">
+                        <p>Invision</p>
+                    </div>
+                </th>
+                <td class="overflow-hidden">
+                    <span>The tool would analyze tre...</sp>
+                </td>
+                <td class="border">
+                    Accessories
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Web Services</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">#APIintegration</span>
+                </td>
+                <td class="border">
+                    <span class="border border-purple-700 shadow-inner text-xs p-1 rounded">Next month</span>
+                </td>
+                <td class="border">
+
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+<!-- 
+<div class="table">
+
+
+    <div class="relative overflow-x-auto shadow-md sm:rounded-lg">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50  ">
+                <tr>
+                    <th scope="col" class="p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-all-search" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                        </div>
+                    </th>
+                    <th scope="col" class="">
+                        Brand
+                    </th>
+                    <th scope="col" class="">
+                        Description
+                    </th>
+                    <th scope="col" class="">
+                        Members
+                    </th>
+                    <th scope="col" class="">
+                        Categories
+                    </th>
+                    <th scope="col" class="">
+                        Tags
+                    </th>
+                    <th scope="col" class="">
+                        Next Meeting
+                    </th>
+                    <th scope="col" class="">
+                        +
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-1" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-1" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Wix
+                    </th>
+                    <td class="border">
+                        Develop a personalized FITB
+                    </td>
+                    <td class="border">
+                        Laptop
+                    </td>
+                    <td class=" text-purple-600">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Automation</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">#DigitalTransformation</p>
+                    </td>
+                    <td class=" text-green-700">
+                        <p class="border border-green-700 shadow-inner p-1 rounded text-sm">in 30 minutes</p>
+                    </td>
+                    <td class="border">
+                        
+                    </td>
+    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-2" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Shopify
+                    </th>
+                    <td class="border">
+                        Introduce a cloud-based p...
+                    </td>
+                    <td class="border">
+                        Laptop PC
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">E-commerce</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">B2B</p>
+                        </div>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">#OnlineShopping</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Tomorrow</p>
+                    </td>
+                    <td class="border">
+                        
+                    </td>
+                    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        MailChimp
+                    </th>
+                    <td class="border">
+                        Develop in a mobile app aim...
+                    </td>
+                    <td class="border">
+                        Accessories
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">SMS</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">Mobile</p>
+                        </div>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">#Techinuation</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Tomorrow</p>
+                    </td>
+                    <td class="border">
+                        0.2 lb.
+                    </td>
+    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Paypal
+                    </th>
+                    <td class="border">
+                        This program could include..
+                    </td>
+                    <td class="border">
+                        Watches
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Marketplace</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">#DaySaleOnline</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">in 6 hours</p>
+                    </td>
+                    <td class="border">
+                        
+                    </td>
+    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Disney
+                    </th>
+                    <td class="border">
+                        Introduce a B2B solution f...
+                    </td>
+                    <td class="border">
+                        PC
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">B2B</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">SAAS</p>
+                        </div>                   
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">#BusinessPartnership</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">No contact</p>
+                    </td>
+                    <td class="border">
+    
+                    </td>
+    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Intercom
+                    </th>
+                    <td class="border">
+                        Implement an AI-driven Co...
+                    </td>
+                    <td class="border">
+                        Accessories
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                           <p class="border border-purple-700 shadow-inner p-1 rounded">Technology</p>
+                           <p class="border border-purple-700 shadow-inner p-1 rounded">SAAS</p>
+                       </div>
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#SmartFinance</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#SaasFi..</p>
+                        </div>
+                        
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">in 1 hour</p>
+                    </td>
+                    <td class="border">
+                        
+                    </td>
+                    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Google
+                    </th>
+                    <td class="border">
+                        Offer a comprehensive cy..
+                    </td>
+                    <td class="border">
+                        Tablet
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#Finance</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#Automation</p>
+                        </div>
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#SmartFinance</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#Works..</p>
+                        </div>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">in 30 minutes</p>
+                    </td>
+                    <td class="border">
+                        
+                    </td>
+                    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Evernote
+                    </th>
+                    <td class="border">
+                        This could include smart li...
+                    </td>
+                    <td class="border">
+                        Accessories
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Transportation</p>
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#LogisticTech</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#LTK</p>
+                        </div>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Next month</p>
+                    </td>
+                    <td class="border">
+    
+                    </td>
+    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Microsoft
+                    </th>
+                    <td class="border">
+                        Launch in an advisory service..
+                    </td>
+                    <td class="border">
+                        Laptop
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">Publishing</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">B2C</p>
+                        </div>
+                    </td>
+                    <td class="border">
+                        <div class="flex items-center">
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#B2CMarketing</p>
+                            <p class="border border-purple-700 shadow-inner p-1 rounded">#RatalIt.</p>
+                        </div>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">No contact</p>
+                    </td>
+                    <td class="border">
+    
+                    </td>
+    
+                </tr>
+                <tr class="bg-white border-b   hover:bg-gray-50 ">
+                    <td class="w-4 p-4">
+                        <div class="flex items-center">
+                            <input id="checkbox-table-search-3" type="checkbox" class="w-2 h-2 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500   focus:ring-2  ">
+                            <label for="checkbox-table-search-3" class="sr-only">checkbox</label>
+                        </div>
+                    </td>
+                    <th scope="row" class=" font-medium text-gray-900 whitespace-nowrap ">
+                        Invision
+                    </th>
+                    <td class="border">
+                        The tool would analyze tre...
+                    </td>
+                    <td class="border">
+                        Accessories
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Web Services</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">#APIintegration</p>
+                    </td>
+                    <td class="border">
+                        <p class="border border-purple-700 shadow-inner p-1 rounded">Next month</p>
+                    </td>
+                    <td class="border">
+    
+                    </td>
+    
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+                    </div> -->
