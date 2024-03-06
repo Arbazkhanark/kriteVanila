@@ -2,12 +2,13 @@ body{
     margin: 0;
     background-color: gray;
     cursor: none;
+    font-family:"Poppins", sans-serif;
 }
 
 .cursor-dot{
   width: 5px;
   height: 5px;
-  background-color: black;
+  background-color: tomato;
 }
 
 
